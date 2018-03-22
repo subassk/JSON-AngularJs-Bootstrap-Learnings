@@ -1,3 +1,6 @@
+//Modules and dependancy Injection,Controllers,Expressions,Two way data binding,Directives,Services,Scopes,Filters.
+
+
 //created by subha tutorial control file
 angular.module("tutorialCtrlModule", []);
 
