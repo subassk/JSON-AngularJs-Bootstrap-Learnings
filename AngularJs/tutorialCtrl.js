@@ -13,7 +13,8 @@ angular.module("tutorialCtrlModule", []);
 //where programming work is done.
 //$scope.name = "subha";-define the variable
 //Link the controllers in the view using ng-controller directive
-//wherever we place ng-controller is we attach it to a particular DOM element ,that DOM element controller will control everything inside that DOM element
+//wherever we place ng-controller is we attach it to a particular DOM element ,that DOM element controller 
+//will control everything inside that DOM element
 
 	$scope.tutorialObject = [];
 	$scope.tutorialObject.title = "Main Page";
@@ -43,7 +44,8 @@ angular.module("tutorialCtrlModule", []);
 
 
 
-//service-are objects that contains specific logic,they are only created once,means only one instance of them running,they allow us to abstract our code in applications.
+//service-are objects that contains specific logic,they are only created once,means only one instance of them running,
+//they allow us to abstract our code in applications.
 //$scope is one kind of service.Scope refers to our application model.
 //Scope joins the controller to view.Scope is a way that we can pass our model between our controller and our view.
 
